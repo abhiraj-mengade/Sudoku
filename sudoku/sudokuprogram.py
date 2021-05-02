@@ -65,6 +65,7 @@ unsolved_board = unsolved(solved_board_copy)
 answer = input("Do you want a printable copy of the puzzle? Enter yes or no:") 
 if answer == "yes": 
     pdf_grid() 
+    print("\n File saved to the current directory.")
 elif answer == "no":
     print("\nOkay!")  
 else:
